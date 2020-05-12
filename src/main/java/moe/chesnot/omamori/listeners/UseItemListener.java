@@ -64,13 +64,11 @@ public class UseItemListener implements Listener {
                         if(monster.getTarget() == null){
                             continue;
                         }
-                        System.out.println(monster.getTarget().getEntityId());
                         if(monster.getTarget().getEntityId() == player.getEntityId()){
                             monster.setTarget(null);
                         }
                     }
                 }
-                System.out.println(player.getEntityId());
                 return;
             }
             item.removeEnchantment(Enchantment.DURABILITY);
