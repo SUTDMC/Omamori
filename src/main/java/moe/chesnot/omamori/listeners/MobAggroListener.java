@@ -18,7 +18,6 @@ public class MobAggroListener implements Listener {
 
     @EventHandler
     public void onTarget(EntityTargetLivingEntityEvent event) {
-        System.out.println("Event logged: " + event.getReason().name() + " by " + event.getEntity().getName());
         if (!(event.getEntity() instanceof Monster)) {
             return;
         }
