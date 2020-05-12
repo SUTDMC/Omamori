@@ -1,0 +1,9 @@
+name: Omamori
+version: ${project.version}
+main: moe.chesnot.omamori.Omamori
+api-version: "1.13"
+load: STARTUP
+description: Gives players a lucky charm to not be aggro'd by mobs
+commands:
+  od:
+    usage: "lmao"
