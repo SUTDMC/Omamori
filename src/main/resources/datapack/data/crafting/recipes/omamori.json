@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "BGB",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

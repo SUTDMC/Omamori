@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:grass"
+        },
+        {
+            "item": "minecraft:carrot_on_a_stick{display:{Name:'{CustomModelData:123456,omamori:1b}"
+        }
+    ],
+    "result": {}
+}

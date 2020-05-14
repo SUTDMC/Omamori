@@ -1,6 +1,6 @@
-{
-  "pack": {
-    "pack_format": 4,
-    "description": "Omamori texture for protecting yourself when building"
-  }
-}
+	{
+       "pack": {
+           "pack_format": 5,
+           "description": "Template for Custom Crafting in Normal Crafting Bench"
+       }
+   }
