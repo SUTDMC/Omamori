@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+	 "layer0": "item/carrot_on_a_stick"
+	},
+   
+	"overrides": [
+     { "predicate": {"custom_model_data": 123456}, "model": "item/omamori"},
+     { "predicate": {"custom_model_data": 987654}, "model": "item/omamorigrass"}
+   
+	]
+   
+	
+   }
