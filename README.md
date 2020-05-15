@@ -2,6 +2,7 @@
 
 Spigot Plugin for Minecraft Versions > 1.14
 
-Assigns an item to be an __Omamori__ (Lucky Charm), that when used, protects players from being targeted by Mobs.
+Craetes an __Omamori__ (Lucky Charm), that when used, protects players from being targeted by Mobs.
 
-The current item is **Carrot on a Stick**, but this is set to be configurable in a future update.
+The current item is a modified **carrot on a stick**. A datapack and resource pack is required.
+
