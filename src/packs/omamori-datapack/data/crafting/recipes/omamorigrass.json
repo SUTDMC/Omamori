@@ -1,12 +1,25 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:grass"
-        },
-        {
-            "item": "minecraft:carrot_on_a_stick{display:{Name:'{CustomModelData:123456,omamori:1b}"
-        }
+    "type": "crafting_shaped",
+    "pattern": [
+      "$#$",
+      "BGB",
+      " B "
     ],
-    "result": {}
-}
+    "key": {
+      "#": {
+        "item": "minecraft:string"
+      },
+      "B": {
+        "item": "minecraft:blue_wool"
+      },
+      "G": {
+        "item": "minecraft:gold_nugget"
+      },
+      "$": {
+        "item": "minecraft:grass"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
