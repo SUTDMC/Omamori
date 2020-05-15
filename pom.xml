@@ -48,22 +48,34 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <configuration>
-                    <appendAssemblyId>false</appendAssemblyId>
-                    <descriptors>
-                        <descriptor>src/datapack/zip.xml</descriptor>
-                    </descriptors>
-                    <basedir>/src/datapack</basedir>
-                    <finalName>
-                        omamori-datapack-${project.version}
-                    </finalName>
-                </configuration>
                 <executions>
                     <execution>
+                        <id>zip-datapack</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>src/packs/datapack.xml</descriptor>
+                            </descriptors>
+                            <finalName>omamori-datapack-${project.version}</finalName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>zip-resourcepack</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>src/packs/resourcepack.xml</descriptor>
+                            </descriptors>
+                            <finalName>omamori-resourcepack-${project.version}</finalName>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
