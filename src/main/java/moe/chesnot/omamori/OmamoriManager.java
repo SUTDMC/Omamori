@@ -104,6 +104,7 @@ public class OmamoriManager {
     public boolean isOmamori(@NotNull ItemStack item) {
         return item.getType().equals(Material.CARROT_ON_A_STICK)
                 && item.getItemMeta() != null
+                && item.getItemMeta().hasCustomModelData()
                 && ( item.getItemMeta().getCustomModelData() == 123456 || item.getItemMeta().getCustomModelData() == 987654);
     }
 
